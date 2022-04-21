@@ -52,17 +52,19 @@
                 </div>
                 
                 <div>
+                    <!----Bootstrap + diseño propio----->
                     <div class="form__section">
-                        <label for="pais">País:</label>
-                        <select id="pais">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Pais</option>
                             <option value="Argentina">Argentina</option>
                             <option value="Brasil">Brasil</option>
                             <option value="Colombia">Colombia</option>
                             <option value="Paraguay">Paraguay</option>
                             <option value="Venezuela">Venezuela</option>
-                        </select>
+                          </select>
+                        <!----Bootstrap----->
                     </div>
-                    <legend>¿Qué edad tienes?</legend>
+                    <p class="youAge">¿Qué edad tienes?</p>
                     <div class="form__section">
                         <input type="radio" id="edad" value="1" />
                         <label>menos de 18 años</label>
