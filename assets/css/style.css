@@ -44,11 +44,6 @@ a {
 /************MOVIL******************************************************************************************************/
 @media screen and (max-width:840px) {
     /**********header*************/
-    .headerNavMovil{
-
-        grid-area: header;
-        background: var(--primary-color);
-    }
 
     .headerNav__home {
         display: flex;
@@ -238,7 +233,6 @@ a {
         flex-direction: column;
         align-items: center;
     }
-<<<<<<< HEAD
 
     @keyframes animation {
         0% {
@@ -258,8 +252,6 @@ a {
 
     }
 
-=======
->>>>>>> animacionesTranformaciones
     .porduct__cards__cardProduct {
         margin: 10px 15px 20px 10px;
         background-color: #8B0060;
@@ -639,7 +631,7 @@ a {
 
 .about-back {
     text-decoration: none;
-
+    font-weight: bold;
 }
 
 .maps{
@@ -701,8 +693,16 @@ label {
     display: inline-block;
     font-weight: bold;
 }
+
+.form-select option{
+    align-content: center;
+
+}
+
 input,
 option,
-select, .form__section p b, .youAge {
+select, .form__section p b, .youAge, .form-select {
     font-size: x-large;
     background: linear-gradient(to bottom, transparent, #5f9);
+    font-weight: bold;
+}
