@@ -298,33 +298,7 @@ a {
         height: 25px;
     }
 
-
-    .headerNav-menuUlLiLink:hover {
-        background: linear-gradient(to bottom, transparent, #8B001A);
-        padding: 10px;
-        border-radius: 20px;
-        animation-name: enormizar;
-        animation-duration: 1s;
-        animation-iteration-count: infinite;
-        transition: 1s;
-    }
-
-    @keyframes enormizar {
-        from {
-            font-size: large;
-        }
-    
-        to {
-            font-size: 5px;
-    
-        }
-    
-    
-    }
-
 }
-
-
 
 
 /*************Common************************************************************************************************/
@@ -342,6 +316,34 @@ a {
     .headerNavMovil {
         display: none;
     }
+
+
+
+    /*************Estilizado***************/
+    .headerNav-menuUlLiLink:hover {
+        background: linear-gradient(to bottom, transparent, #8B001A);
+        padding: 10px;
+        border-radius: 20px;
+        animation-name: enormizar;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        transition: 1s;
+    }
+
+    @keyframes enormizar {
+        from {
+            font-size: xx-large;
+        }
+
+        to {
+            font-size: 54px;
+
+        }
+
+
+    }
+
+
 
     /**********header*************/
     .headerNav {
@@ -383,7 +385,7 @@ a {
         width: 100%;
         height: 100;
         animation: off 10s infinite linear alternate;
-        background-size: 100% 100%;
+        background-size: cover;
         position: relative;
         display: flex;
         justify-content: center;
@@ -443,7 +445,7 @@ a {
         height: 250px;
         animation: banner 10s infinite linear alternate;
         position: relative;
-        background-size: 100% 100%;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -623,7 +625,6 @@ a {
         display: grid;
         width: 100%;
         grid-template-columns: 1fr;
-        grid-template-rows: 150px 250px 500px 500px;
     }
 
     .gridItem--mainOff {
@@ -675,31 +676,62 @@ a {
 
 }
 
+/*************************madriguera*******************************/
 
 
-/*************Estilizado***************/
-.headerNav-menuUlLiLink:hover {
-    background: linear-gradient(to bottom, transparent, #8B001A);
-    padding: 10px;
-    border-radius: 20px;
-    animation-name: enormizar;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    transition: 1s;
+
+.ContainerMadriguera {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
 }
 
-@keyframes enormizar {
-    from {
-        font-size: xx-large;
-    }
+.ContainerMadriguera__bannerOne {
+    background-image: url(../img/Products/demonslayer7.jpg);
+    background-size: cover;
+    height: 1490px;
+    width: 10%;
+}
 
-    to {
-        font-size: 54px;
+.ContainerMadriguera__Art {
 
-    }
+    background-image: url(../img/papiro-.jpg);
+    background-size: cover;
+    display: inline-flex;
+    height: 1490px;
+}
 
+.ContainerMadriguera__ArtDiv {
+    align-items: center;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+.ContainerMadriguera__ArtDiv--title {
+    font-weight: bold;
 
 }
+
+.ContainerMadriguera__ArtDiv--text {
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.ContainerMadriguera__bannerTwo {
+    background-image: url(../img/Products/demonslayer7.jpg);
+    background-size: cover;
+    height: 1490px;
+    width: 10%;
+}
+
+
+
+
+
 
 /***********contacto***********/
 
