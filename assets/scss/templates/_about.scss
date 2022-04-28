@@ -1,0 +1,96 @@
+/***********contacto***********/
+
+#about {
+    background-image: url(../img/banner/bannerContact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+
+    .flex-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+        margin: 50px 40px;
+        border-radius: 10px;
+    
+        .form {
+            min-width: 400px;
+            flex: 1;
+            text-align: right;
+            padding: 30px;
+            
+            .form textarea {
+                min-height: 140px;
+                resize: none;
+            
+            }
+            
+            .form-input {
+                width: 100%;
+                padding: 7px;
+                margin: 6px 0px;
+                border-bottom: 3px solid #5dd;
+                background: transparent;
+                color: aquamarine;
+            }
+            
+            .form-input[type="submit"]:hover {
+                background: linear-gradient(to bottom, transparent, #5dd);
+                border-bottom: #5f9;
+                padding: 12px;
+                color: black;
+            }
+            
+            .form-input:focus {
+                background: linear-gradient(to bottom, transparent, #222);
+                outline: none;
+                border-bottom: 3px solid #5f9;
+            
+            }
+            
+            label {
+                font-weight: bold;
+                font-size: x-large;
+                background: linear-gradient(to bottom, transparent, #5f9);
+            }
+            
+            .youAge {
+                display: inline-block;
+                font-weight: bold;
+            }
+            
+            .form-select option {
+                align-content: center;
+            
+            }
+            
+        
+        
+        }
+        
+        input,
+        option,
+        select,
+        .form__section p b,
+        .youAge,
+        .form-select {
+            font-size: x-large;
+            background: linear-gradient(to bottom, transparent, #5f9);
+            font-weight: bold;
+        }
+        
+    
+        .about-back {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .maps {
+            margin-top: 10px;
+        }
+    }
+}

@@ -6,15 +6,20 @@
   "version": "1.0.0",
   "description": "entregables para proyecto final",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"node-sass --include-path scss assets/scss/style.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zhambhala/git-librero.git"
   },
-  "author": "",
+  "author": "Bruno Angel Tomas Zabala",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zhambhala/git-librero/issues"
