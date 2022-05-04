@@ -78,14 +78,16 @@
 body {
   font-family: 'Elsie Swash Caps', sans-serif;
   background: var(--primary-color);
-  color: var(--text-color);
   height: 100vh;
   width: 100%; }
-  body a {
+  body a, body h1, body h2, body h3, body h4, body h5 {
     text-decoration: none;
     color: var(--text-color);
     font-size: x-large;
     font-weight: bold; }
+  body p {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif; }
   body ul {
     list-style-type: none; }
   body ol {
@@ -147,7 +149,6 @@ body {
       text-align: center; }
       .off .off__secondSon .off__secondSon__text {
         font-size: 35px;
-        color: aliceblue;
         margin-bottom: 20px;
         letter-spacing: 1px; }
   @keyframes off {
@@ -185,7 +186,6 @@ body {
       text-align: center; }
       .banner .banner__secondSon .banner__secondSon__text {
         font-size: 35px;
-        color: aliceblue;
         margin-bottom: 20px;
         letter-spacing: 1px; }
   @keyframes banner {
@@ -252,28 +252,18 @@ body {
     display: flex;
     align-items: center;
     padding-left: 10px; }
-  .footer__ul__secondSon__sMedia {
-    font-weight: bold;
-    font-size: x-large; }
   .footer__ul__secondSon__sMediaImg {
     height: 25px; } }
 
 /*************Common************************************************************************************************/
 @media screen and (min-width: 850px) {
   /*************Estilizado***************/
-  .headerNav-menuUlLiLink:hover {
+  .headerNav-menuUlLi:hover {
     background: linear-gradient(to bottom, transparent, #8B001A);
     padding: 10px;
-    border-radius: 20px;
-    animation-name: enormizar;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    transition: 1s; }
-  @keyframes enormizar {
-    from {
-      font-size: xx-large; }
-    to {
-      font-size: 54px; } }
+    border-radius: 20px; }
+    .headerNav-menuUlLi:hover .headerNav-menuUlLiLink:hover {
+      transform: scale(); }
   /**********header*************/
   .headerNav {
     padding-top: 3px; }
@@ -389,9 +379,9 @@ body {
         background-color: #8B0060;
         box-shadow: 0px 1px 10px 1;
         transition: all 400ms ease; }
-        .product .porduct__cards .porduct__cards__cardProduct .porduct__cards__cardProduct:hover {
-          box-shadow: 5px 5px 20px 1;
-          transform: translate(-4%); }
+      .product .porduct__cards .porduct__cards__cardProduct:hover {
+        box-shadow: 5px 5px 20px 1;
+        transform: translate(-4%); }
   /*****************FOOTER*****************/
   .footer__ul__firstSon {
     display: flex;
@@ -500,10 +490,6 @@ body {
 
 .ContainerMadriguera__ArtDiv--title {
   font-weight: bold; }
-
-.ContainerMadriguera__ArtDiv--text {
-  font-weight: bold;
-  font-size: x-large; }
 
 .ContainerMadriguera__bannerTwo {
   background-image: url(../img/Products/demonslayer7.jpg);
