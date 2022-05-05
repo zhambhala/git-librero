@@ -325,10 +325,6 @@ body {
         background: linear-gradient(to bottom, transparent, #8B001A);
         padding: 10px;
         border-radius: 20px;
-
-        .headerNav-menuUlLiLink:hover{
-        transform: scale();
-        }
     
     }
 
@@ -364,8 +360,6 @@ body {
  }
 
   
-  
-
     /**************MAIN****************/
 
 
@@ -425,11 +419,6 @@ body {
             background-image: url(../img/banner/banner4.jpg);
         }
     }
-
-
-
- 
-
 
     .banner {
         width: 100%;
@@ -535,7 +524,7 @@ body {
         align-items: flex-start;
         align-items: center;
     }
-
+    
     .footer__ul__secondSon {
         display: flex;
         align-items: flex-start;
@@ -543,8 +532,7 @@ body {
     }
 
     .footer__ul__secondSon__sMedia {
-        font-weight: bold;
-        font-size: x-large;
+        
         .footer__ul__secondSon__sMediaImg {
             height: 25px;
         }
