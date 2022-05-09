@@ -68,7 +68,7 @@
 
 body {
   font-family: 'Elsie Swash Caps', sans-serif;
-  background: var(--primary-color);
+  background: linear-gradient(to bottom, #8B0060, #8B001A);
   height: 100vh;
   width: 100%; }
   body a, body h1, body h2, body h3, body h4, body h5 {
@@ -387,11 +387,7 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 100px 500px 500px 500px 100px;
-    grid-template-areas: "header"
- "main"
- "main"
- "main"
- "footer "; }
+    grid-template-areas: "header" "main" "main" "main" "footer "; }
   /*gridHeader*/
   .gridItem--header {
     grid-area: header;
