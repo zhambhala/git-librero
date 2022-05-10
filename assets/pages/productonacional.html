@@ -30,7 +30,9 @@
                 <a href="../../Index.html" class="headerNav__homeLogo"><img src="../img/logo.png" title="logo"
                         class="headerNav__homeLogoImg"></a>
             </div>
-            <div class="headerNav-menu">
+            <p id="boton" onclick="mostrar();">Menu</p>
+            <div id="headerNav-menu" class="headerNav-menu">
+                <p id="boton" onclick="ocultar();">Menu</p>
                 <ul class="headerNav-menuUl gridNavMenu">
                     <li class="headerNav-menuUlLi gridNavMenu__li"><a href="productonacional.html"
                             class="headerNav-menuUlLiLink gridNavMenu__li">Nacionales</a></li>
@@ -70,12 +72,11 @@
                     <div class="card porduct__cards__cardProduct" style="width: 18rem;">
                         <img src="../img/Products/bluelock3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"> <b>Bluelock Precio:$1600</b></h5>
-                            <p class="card-text "> <b>La trama se sitúa tras la eliminación de la selección de Japón de
-                                    la
-                                    Copa Mundial de Fútbol
-                                    de
-                                    2018.</b></p>
+                            <h1 class="card-title"> Bluelock Precio:$1600</h1>
+                            <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
+                                Copa Mundial de Fútbol
+                                de
+                                2018.</p>
                         </div>
                     </div>
                 </div>
@@ -84,12 +85,11 @@
                     <div class="card porduct__cards__cardProduct" style="width: 18rem;">
                         <img src="../img/Products/bluelock3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"> <b>Bluelock Precio:$1600</b></h5>
-                            <p class="card-text "> <b>La trama se sitúa tras la eliminación de la selección de Japón de
-                                    la
-                                    Copa Mundial de Fútbol
-                                    de
-                                    2018.</b></p>
+                            <h1 class="card-title"> Bluelock Precio:$1600</h1>
+                            <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
+                                Copa Mundial de Fútbol
+                                de
+                                2018.</p>
                         </div>
                     </div>
                 </div>
@@ -98,16 +98,15 @@
                     <div class="card porduct__cards__cardProduct" style="width: 18rem;">
                         <img src="../img/Products/bluelock3.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title"> <b>Bluelock Precio:$1600</b></h5>
-                            <p class="card-text "> <b>La trama se sitúa tras la eliminación de la selección de Japón de
-                                    la
-                                    Copa Mundial de Fútbol
-                                    de
-                                    2018.</b></p>
+                            <h1 class="card-title"> Bluelock Precio:$1600</h1>
+                            <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
+                                Copa Mundial de Fútbol
+                                de
+                                2018.</p>
                         </div>
                     </div>
                 </div>
-
+                
             </section>
         </main>
 
@@ -130,7 +129,14 @@
         </footer>
 
         </section>
-
+        <script>
+            function mostrar(){
+                document.getElementById("headerNav-menu").style.display = "block";
+            }
+            function ocultar(){
+                document.getElementById("headerNav-menu").style.display = "none";
+            }
+        </script>
         <link rel="stylesheet" href="../bootstrap/bootstrap.bundle.min.js">
 </body>
 

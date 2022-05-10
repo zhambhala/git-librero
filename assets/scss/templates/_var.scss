@@ -1,4 +1,3 @@
-
 :root {
     --shadowBar-color: #57033cc4;
     --primary-color: #8B0060;
@@ -9,11 +8,14 @@
 }
 
 
-$styleContacto:(
-backgroundIn:#2225,
-titleTextColor:#000,
-textColor:#fff,
-font-sizeTitle: x-large,
-borderRForm: 3%,
-fontFam: arial
-);
+$styleContacto:(backgroundIn:#2225,
+    titleTextColor:#000,
+    textColor:#fff,
+    font-sizeTitle: x-large,
+    borderRForm: 3%,
+    fontFam: arial);
+
+$styleGeneral:(textColor: #fff,
+    fontSize: x-large,
+    fontFam: arial,
+)

@@ -22,15 +22,16 @@
 
     <title>Madriguera</title>
 </head>
-
-<body class="container-fluid gridContainer">
-    <header class="header gridItem--header">
+<body class="container-fluid gridContainer"> 
+    <header id="header" class="header gridItem--header">
         <nav class="headerNav">
             <div class="headerNav__home">
                 <a href="../../Index.html" class="headerNav__homeLogo"><img src="../img/logo.png" title="logo"
                         class="headerNav__homeLogoImg"></a>
             </div>
-            <div class="headerNav-menu">
+            <p id="boton" onclick="mostrar();">Menu</p>
+            <div id="headerNav-menu" class="headerNav-menu">
+                <p id="boton" onclick="ocultar();">Menu</p>
                 <ul class="headerNav-menuUl gridNavMenu">
                     <li class="headerNav-menuUlLi gridNavMenu__li"><a href="productonacional.html"
                             class="headerNav-menuUlLiLink gridNavMenu__li">Nacionales</a></li>
@@ -48,12 +49,14 @@
         </nav>
     </header>
     <main class="ContainerMadriguera">
-        <div class="ContainerMadriguera__bannerOne"></div>
         <article class="ContainerMadriguera__Art">
             <div class="ContainerMadriguera__ArtDiv">
-                <h1 class="ContainerMadriguera__ArtDiv--title">este parrafo sera una eleccion de cuentos cortos,
-                    para que la gente pueda distraerse en este caso uno de Julio Cortazar llamado; CEREMONIA RECURRENTE
-                </h1>
+                <h3 class="ContainerMadriguera__ArtDiv--title">este parrafo sera una eleccion de cuentos cortos,
+                    para que la gente pueda distraerse, en este caso algunos de Julio Cortazar
+                </h3>
+                <div>
+                    <h4 class="ContainerMadriguera__ArtDiv--title">CEREMONIA RECURRENTE</h4>
+                </div>
                 <p class="ContainerMadriguera__ArtDiv--text">
                     El animal totémico con sus uñas de luz,
                     los ojos que junta la oscuridd debajo de la cama,
@@ -74,9 +77,7 @@
 
                     Y después despertamos y es domingo y febrero.
                 </p>
-            </div>
         </article>
-        <div class="ContainerMadriguera__bannerTwo"></div>
     </main>
 
     <footer class="gridItem--footer">
@@ -97,7 +98,14 @@
     </footer>
 
     </section>
-
+    <script>
+        function mostrar(){
+            document.getElementById("headerNav-menu").style.display = "block";
+        }
+        function ocultar(){
+            document.getElementById("headerNav-menu").style.display = "none";
+        }
+    </script>
     <link rel="stylesheet" href="../bootstrap/bootstrap.bundle.min.js">
 </body>
 

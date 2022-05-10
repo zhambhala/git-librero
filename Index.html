@@ -29,7 +29,9 @@
                 <a href="Index.html" class="headerNav__homeLogo"><img src="./assets/img/logo.png" title="logo"
                         class="headerNav__homeLogoImg"></a>
             </div>
-            <div class="headerNav-menu">
+            <p id="boton" onclick="mostrar();">Menu</p>
+            <div id="headerNav-menu" class="headerNav-menu">
+                <p id="boton" onclick="ocultar();">Menu</p>
                 <ul class="headerNav-menuUl gridNavMenu">
                     <li class="headerNav-menuUlLi gridNavMenu__li"><a href="./assets/pages/productonacional.html"
                             class="headerNav-menuUlLiLink gridNavMenu__li">Nacionales</a></li>
@@ -51,30 +53,30 @@
         <section class="off gridItem--mainOff">
             <div class="off__firstSon"></div>
             <div class="off__secondSon">
-                <h1 class="off__secondSon__text"> sepan disculpar, actulamente no tengo los banners
-                    de ofertas hechos </h1>
+                <p class="off__secondSon__text"> sepan disculpar, actulamente no tengo los banners
+                    de ofertas hechos </p>
             </div>
-
         </section>
+
         <section class="banner gridItem--mainBanner">
             <div class="banner__firstSon"></div>
             <div class="banner__secondSon">
-                <h2 class="banner__secondSon__text"> Sean bienvenidos a Weasell la futura tienda online de libros
-                    miren cuanto gusten y recuerden consultar el stock actual </h2>
+                <p class="banner__secondSon__text"> Sean bienvenidos a Weasell la futura tienda online de libros
+                    miren cuanto gusten y recuerden consultar el stock actual </p>
             </div>
         </section>
 
-        <section class="product gridItem--mainProduct ">
+        <section class="product gridItem--mainProduct container-fluid">
 
             <div class="porduct__cards">
                 <div class="card porduct__cards__cardProduct" style="width: 18rem;">
                     <img src="./assets/img/Products/bluelock3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title"> Bluelock Precio:$1600</h3>
+                        <h1 class="card-title"> Bluelock Precio:$1600</h1>
                         <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
-                                Copa Mundial de Fútbol
-                                de
-                                2018.</p>
+                            Copa Mundial de Fútbol
+                            de
+                            2018.</p>
                     </div>
                 </div>
             </div>
@@ -83,11 +85,11 @@
                 <div class="card porduct__cards__cardProduct" style="width: 18rem;">
                     <img src="./assets/img/Products/bluelock3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title"> <b>Bluelock Precio:$1600</b></h3>
-                        <p class="card-text "> <b>La trama se sitúa tras la eliminación de la selección de Japón de la
-                                Copa Mundial de Fútbol
-                                de
-                                2018.</b></p>
+                        <h1 class="card-title"> Bluelock Precio:$1600</h1>
+                        <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
+                            Copa Mundial de Fútbol
+                            de
+                            2018.</p>
                     </div>
                 </div>
             </div>
@@ -96,11 +98,11 @@
                 <div class="card porduct__cards__cardProduct" style="width: 18rem;">
                     <img src="./assets/img/Products/bluelock3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title"> <b>Bluelock Precio:$1600</b></h3>
-                        <p class="card-text "> <b>La trama se sitúa tras la eliminación de la selección de Japón de la
-                                Copa Mundial de Fútbol
-                                de
-                                2018.</b></p>
+                        <h1 class="card-title"> Bluelock Precio:$1600</h1>
+                        <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
+                            Copa Mundial de Fútbol
+                            de
+                            2018.</p>
                     </div>
                 </div>
             </div>
@@ -127,7 +129,14 @@
     </footer>
 
     </section>
-
+    <script>
+        function mostrar(){
+            document.getElementById("headerNav-menu").style.display = "block";
+        }
+        function ocultar(){
+            document.getElementById("headerNav-menu").style.display = "none";
+        }
+    </script>
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.bundle.min.js">
 </body>
 

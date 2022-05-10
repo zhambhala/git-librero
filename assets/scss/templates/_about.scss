@@ -2,7 +2,7 @@
 @mixin sizes ($w, $h) {
     width: $w;
     height: $h;
-    
+
 }
 
 #about {
@@ -10,12 +10,12 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    @include sizes(100%, auto );
-  
+    @include sizes(100%, auto);
 
-    
-    .about-container{
-        background-color: map-get($map: $styleContacto, $key:backgroundIn );
+
+
+    .about-container {
+        background-color: map-get($map: $styleContacto, $key:backgroundIn);
         margin: 20px;
         border-radius: 3%;
     }
@@ -26,95 +26,97 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .flex-container {
         @include flex-wrap-center;
         margin: 50px 40px;
         border-radius: 10px;
-    
+
         .form {
             min-width: 400px;
             flex: 1;
             text-align: right;
             padding: 30px;
-            
+
             .form textarea {
                 min-height: 140px;
                 resize: none;
-                
-            
+
+
             }
-            
+
             .form-input {
                 width: 100%;
                 padding: 10px;
                 margin: 6px 0px;
-                background-color: map-get($map: $styleContacto, $key: backgroundIn );
+                background-color: map-get($map: $styleContacto, $key: backgroundIn);
             }
-            
+
             .form-input[type="submit"]:hover {
-                background-color: map-get($map: $styleContacto, $key: backgroundIn );
+                background-color: map-get($map: $styleContacto, $key: backgroundIn);
                 padding: 12px;
             }
-            
+
             .form-input:focus {
                 background: linear-gradient(to bottom, transparent, #222);
                 outline: none;
-             
-            
+
+
             }
 
             .youAge {
                 display: inline-block;
-                
+
             }
-            
+
             .form-select option {
                 align-content: center;
-            
+
             }
-            
+
         }
-        
-        input
-        {        
+
+        input {
             font-size: map-get($map: $styleContacto, $key: font-sizeTitle);
             color: map-get($map: $styleContacto, $key: textColor);
             background-color: map-get($map: $styleContacto, $key: backgroundIn);
-            border-radius: map-get($map: $styleContacto, $key: borderRForm );
-            font-family: map-get($map: $styleContacto, $key: fontFam );
-        }
-        .form__section p b{
-            @extend  input ;
+            border-radius: map-get($map: $styleContacto, $key: borderRForm);
+            font-family: map-get($map: $styleContacto, $key: fontFam);
         }
 
-        option{
-            @extend  input ;
+        .form__section p b {
+            @extend input;
         }
 
-        select{
-            @extend  input ;
+        option {
+            @extend input;
         }
 
-        .youAge{
-            @extend  input ;
+        select {
+            @extend input;
         }
 
-        .form-select{
-            @extend  input ;
+        .youAge {
+            @extend input;
         }
 
-        label{
-            @extend  input ;
+        .form-select {
+            @extend input;
         }
 
-        textarea{
-            @extend  input ;
+        label {
+            @extend input;
         }
-    
+
+        textarea {
+            @extend input;
+        }
+
         .about-back {
             text-decoration: none;
             font-weight: bold;
         }
+
         .maps {
             margin-top: 10px;
         }
