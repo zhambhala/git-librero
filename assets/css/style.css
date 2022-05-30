@@ -5,7 +5,8 @@
   --secundary-color: #8B001A;
   --text-color: rgb(255, 255, 255);
   --text-inverse-color: rgb(22, 83, 173);
-  --mobileMenu-background-color: #6d0752; }
+  --mobileMenu-background-color: #6d0752;
+}
 
 /***********contacto***********/
 #about {
@@ -15,98 +16,151 @@
   background-position: center;
   width: 100%;
   height: auto;
-  width: 100vh; }
-  #about .about-container {
-    background-color: #2225;
-    margin: 2px;
-    border-radius: 3%;
-    width: 100vh; }
-  #about .flex-container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 50px 40px;
-    border-radius: 10px; }
-    #about .flex-container .form {
-      min-width: 400px;
-      flex: 1;
-      text-align: right;
-      padding: 30px; }
-      #about .flex-container .form .form textarea {
-        min-height: 140px;
-        resize: none; }
-      #about .flex-container .form .form-input {
-        width: 100%;
-        padding: 10px;
-        margin: 6px 0px;
-        background-color: #2225; }
-      #about .flex-container .form .form-input[type="submit"]:hover {
-        background-color: #2225;
-        padding: 12px; }
-      #about .flex-container .form .form-input:focus {
-        background: linear-gradient(to bottom, transparent, #222);
-        outline: none; }
-      #about .flex-container .form .youAge {
-        display: inline-block; }
-      #about .flex-container .form .form-select option {
-        align-content: center; }
-    #about .flex-container input, #about .flex-container .form__section p b, #about .flex-container option, #about .flex-container select, #about .flex-container .youAge, #about .flex-container .form-select, #about .flex-container label, #about .flex-container textarea {
-      font-size: x-large;
-      color: #fff;
-      background-color: #2225;
-      border-radius: 3%;
-      font-family: arial; }
-    #about .flex-container .about-back {
-      text-decoration: none;
-      font-weight: bold; }
-    #about .flex-container .maps {
-      margin-top: 10px; }
+  width: 100vh;
+}
+
+#about .about-container {
+  background-color: #2225;
+  margin: 2px;
+  border-radius: 3%;
+  width: 100vh;
+}
+
+#about .flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 40px;
+  border-radius: 10px;
+}
+
+#about .flex-container .form {
+  min-width: 400px;
+  flex: 1;
+  text-align: right;
+  padding: 30px;
+}
+
+#about .flex-container .form .form textarea {
+  min-height: 140px;
+  resize: none;
+}
+
+#about .flex-container .form .form-input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0px;
+  background-color: #2225;
+}
+
+#about .flex-container .form .form-input[type="submit"]:hover {
+  background-color: #2225;
+  padding: 12px;
+}
+
+#about .flex-container .form .form-input:focus {
+  background: linear-gradient(to bottom, transparent, #222);
+  outline: none;
+}
+
+#about .flex-container .form .youAge {
+  display: inline-block;
+}
+
+#about .flex-container .form .form-select option {
+  align-content: center;
+}
+
+#about .flex-container input,
+#about .flex-container .form__section p b,
+#about .flex-container option,
+#about .flex-container select,
+#about .flex-container .youAge,
+#about .flex-container .form-select,
+#about .flex-container label,
+#about .flex-container textarea {
+  font-size: x-large;
+  color: #fff;
+  background-color: #2225;
+  border-radius: 3%;
+  font-family: arial;
+}
+
+#about .flex-container .about-back {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#about .flex-container .maps {
+  margin-top: 10px;
+}
 
 body {
   font-family: 'Elsie Swash Caps', sans-serif;
   background: linear-gradient(to bottom, #8B0060, #8B001A, #8B0060, #8B001A, #8B0060, #8B001A, #8B0060, #8B001A, #8B0060, #8B001A);
   height: 100vh;
   width: 100%;
-  /*estilizado especial*/ }
-  body a,
-  body h1,
-  body h2,
-  body h3,
-  body h4,
-  body h4,
-  body h5,
-  body h6,
-  body h7,
-  body h8 {
-    text-decoration: none;
-    color: var(--text-color);
-    font-size: xx-large;
-    font-weight: bold; }
-  body .card-text {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: medium;
-    color: black; }
-  body .carouselImg {
-    object-fit: cover; }
-  body p {
-    font-size: x-large;
-    font-family: arial;
-    color: #fff; }
-  body ul {
-    list-style-type: none; }
-  body ol {
-    list-style-type: none; }
-  body img {
-    object-fit: contain; }
-  body .bg-custom {
-    background: #8B0060; }
-  body .alto-100 {
-    height: 100%; }
+  /*estilizado especial*/
+}
+
+body a,
+body h1,
+body h2,
+body h3,
+body h4,
+body h4,
+body h5,
+body h6,
+body h7,
+body h8 {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+body .card-text {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  color: black;
+}
+
+body .carouselImg {
+  object-fit: cover;
+}
+
+body p {
+  font-size: x-large;
+  font-family: arial;
+  color: #fff;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+body ol {
+  list-style-type: none;
+}
+
+body img {
+  object-fit: contain;
+}
+
+body .bg-custom {
+  background: #8B0060;
+}
+
+body .alto-100 {
+  height: 100%;
+}
 
 @media screen and (max-width: 500px) {
   .bannerDos {
-    display: none; } }
+    display: none;
+  }
+}
 
 /*************************madriguera*******************************/
 .fondo {
@@ -116,7 +170,8 @@ body {
   background-image: url(../img/hoja1.jpg);
   background-size: cover;
   display: inline-flex;
-  height: 100%; }
+  height: 100%;
+}
 
 .fondo-historia {
   align-items: center;
@@ -124,7 +179,9 @@ body {
   height: 90%;
   display: flex;
   flex-direction: column;
-  margin: 5%; }
+  margin: 5%;
+}
 
 .fondo-titulo {
-  font-weight: bold; }
+  font-weight: bold;
+}
