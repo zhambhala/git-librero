@@ -5,108 +5,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="libro,comic,libros,comics,manga,mangas,novelas,novela">
+    <meta name="keywords" content="Geek,Usados,Contacto,manga,Nacionales">
     <meta name="description" content="Weasell, libreria de la localidad de Armstrong Santa Fe,
-    actualmente trabajando por encargo y stock reservado">
+        actualmente trabajando por encargo y stock reservado">
     <meta name="author" content="Bruno Angel Tomas Zabala">
     <meta name="robots" content="index">
     <link rel="icon" href="../img/logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8e43b03d4c.js" crossorigin="anonymous"></script>
-    <script defer src="./assets/js/app.js"></script>
     <link rel="stylesheet" type="text" href="../css/normalize.css">
-    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-
     <title>Madriguera</title>
 </head>
-<body class="container-fluid gridContainer"> 
-    <header id="header" class="header gridItem--header">
-        <nav class="headerNav">
-            <div class="headerNav__home">
-                <a href="../../Index.html" class="headerNav__homeLogo"><img src="../img/logo.png" title="logo"
-                        class="headerNav__homeLogoImg"></a>
-            </div>
-            <p id="boton" onclick="mostrar();">Abrir</p>
-            <div id="headerNav-menu" class="headerNav-menu">
-                <p id="boton" onclick="ocultar();">Cerrar</p>
-                <ul class="headerNav-menuUl gridNavMenu">
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="productonacional.html"
-                            class="headerNav-menuUlLiLink gridNavMenu__li">Nacionales</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="geek.html"
-                            class="headerNav-menuUlLiLink">Geek</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="usados.html"
-                            class="headerNav-menuUlLiLink">Usados</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="cuevadelacomdreja.html"
-                            class="headerNav-menuUlLiLink">Madriguera</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="contacto.html" target="_BLANK"
-                            class=" headerNav-menuUlLiLink">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main class="ContainerMadriguera">
-        <article class="ContainerMadriguera__Art">
-            <div class="ContainerMadriguera__ArtDiv">
-                <h3 class="ContainerMadriguera__ArtDiv--title">este parrafo sera una eleccion de cuentos cortos,
-                    para que la gente pueda distraerse, en este caso algunos de Julio Cortazar
-                </h3>
-                <div>
-                    <h4 class="ContainerMadriguera__ArtDiv--title">CEREMONIA RECURRENTE</h4>
+
+<body>
+    <header class="container-fluid vw-100">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-custom container-fluid vw-100 row">
+                <div class="container-fluid">
+                    <a class="navbar-brand col-1" href="../../Index.html">
+                        <h1 class="m-2">Weasell</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse col-11 container-fluid row" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-1 mb-lg-0 row d-flex  justify-content-between ">
+                            <li class="nav-item col-2 ml-1 ">
+                                <a class="nav-link active" aria-current="page"
+                                    href="productonacional.html">Nacionales</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page" href="geek.html">Geek</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page" href="usados.html">Usados</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page"
+                                    href="cuevadelacomdreja.html">Madriguera</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <p class="ContainerMadriguera__ArtDiv--text">
-                    El animal totémico con sus uñas de luz,
-                    los ojos que junta la oscuridd debajo de la cama,
-                    el ritmo misterioso de tu respiración, la sombra
-                    que tu sudor dibuja en el olfato, el día ya inminente.
-                    Entonces me enderezo, todavía batido por las aguas del sueño,
-                    vuelvo de un continente a medias ciego
-                    donde también estabas tú pero eras otra,
-                    y cuando te consulto con la boca y los dedos, recorro el
-                    horizonte de tus flancos
-                    (dulcemente te enojas, quieres seguir durmiendo, me dices
-                    bruto y tonto,
-                    te debates riendo, no te dejas tomar pero ya es tarde,
-                    un fuego
-                    de piel y de azabache, las figuras del sueño)
-                    el animal totémico a los pies de la hoguera
-                    con sus uñas de luz y sus alas de almizcle.
+            </nav>
+        </div>
+    </header>
 
-                    Y después despertamos y es domingo y febrero.
-                </p>
-        </article>
-    </main>
+    <main class="container-fluid vw-100 p-0">
+        <div class="m-0 p-0">
+            <!--Banner-->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="fondo p-5">
+                            <h1 class="fondo-Titulo">El cuento de la lechera</h1>
+                            <p class="fs-5 fondo-Historia">Érase una vez una joven lechera que llevaba un cubo de leche
+                                en la cabeza, camino al mercado para venderla. Durante el camino, la soñadora joven iba
+                                imaginando lo que podría lograr conseguir con la leche. Pensó que en primer lugar y con
+                                el dinero de la venta compraría un canasto de huevos, los cuales una vez eclosionaran le
+                                permitiría montar una pequeña granja de pollos. Una vez estos crecieran podría
+                                venderlos, lo que le daría dinero para comprarse un lechón.
 
-    <footer class="gridItem--footer">
-        <ul class="footer__ul gridContainer--fUl ">
-            <div class="footer__ul__firstSon gridItem--footerDiv">
-                <li class="footer__ul__firstSon__list">
-                    <a href="contacto.html" target="_BLANK" class="footer__ul__firstSon__listLink">contacto</a>
-                </li>
+                                Una vez este creciera la venta del animal bastaría para comprarse una ternera, con la
+                                leche de la cual seguiría obteniendo beneficios y a su vez podría tener terneros. Sin
+                                embargo, mientras iba pensando todas estas cosas la joven tropezó, lo que provocó que el
+                                cántaro cayera el suelo y se rompiera. Y con él, sus expectativas hacia lo que podría
+                                haber hecho con ella</p>
+                        </div>
+                        <div class="fondo p-5">
+                            <h1 class="fondo-Titulo">La sospecha</h1>
+                            <p class="fs-5 fondo-Historia">Érase una vez un leñador el cual un día se dio cuenta que no
+                                tenía su hacha. Sorprendido y con lágrimas en los ojos, se encontró cerca de su casa al
+                                vecino, quien como siempre lo hacía le saludó sonriente y amablemente.
+
+                                Mientras éste entraba en su casa, el leñador de repente empezó a sospechar y pensar que
+                                tal vez hubiese sido el vecino quien le había robado el hacha. De hecho, ahora que lo
+                                pensaba bien su sonrisa parecía nerviosa, tenía una mirada extraña e incluso hubiese
+                                dicho que le temblaban las manos. Bien pensado, el vecino tenía la misma expresión que
+                                un ladrón, caminaba como un ladrón y hablaba como un ladrón.</p>
+                        </div>
+                        <div class="fondo p-5">
+                            <h1 class="fondo-Titulo">El maestro zen</h1>
+                            <p class="fs-5 fondo-Historia">Érase una vez, durante una guerra civil en la época feudal,
+                                un pequeño poblado en el que vivía un maestro zen. Un día, llegó a ellos la noticia de
+                                que un temible general se dirigía en su dirección para invadir y tomar la zona. El día
+                                anterior a la llegada del ejército toda la aldea huyó, con la excepción del anciano
+                                maestro. Cuando llegó el general, tras encontrar la aldea prácticamente desierta y
+                                sabiendo de la existencia del anciano, ordenó que el maestro zen se personase ante él,
+                                pero este no lo hizo.
+
+                                El general se dirigió rápidamente hacia el templo donde el maestro descansaba. Furioso,
+                                el general sacó su espada y se la acercó a la cara, gritándole que si no se daba cuenta
+                                de que estaba simplemente parado delante de quien podría atravesarle en un instante. Con
+                                total tranquilidad, el anciano maestro le contestó que precisamente el general estaba
+                                ante alguien que podía ser atravesado en un instante. El general, sorprendido y confuso,
+                                terminó haciéndole una reverencia y marchándose del lugar.”
+
+                                Esta historia corta refleja la cualidad del autocontrol emocional y el valor de tener la
+                                capacidad de mantenerse sereno en cualquier circunstancia. La cuestión es que cualquier
+                                cosa puede pasarnos en cualquier momento, y perturbarnos ante ello no nos conduce a
+                                nada.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="footer__ul__secondSon gridItem--footerDiv">
-                <p class="footer__ul__secondSon__sMedia">Seguinos<a href="https://www.instagram.com/wesselall/"
-                        target="_BLANK">
-                        <img src="../img/ig-logo.png" class="footer__ul__secondSon__sMediaImg"></a>
-                </p>
 
-            </div>
-        </ul>
-    </footer>
+            <!--FOOTER-->
+            <footer class="container-fluid vw-100 col-12 col-lg-12 bg-custom ">
+                <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                            <svg class="bi" width="30" height="24">
+                                <use xlink:href="#bootstrap"></use>
+                            </svg>
+                        </a>
+                        <span class="text-muted fs-3">©Weasell 2021</span>
+                    </div>
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li>
+                            <a href="https://www.instagram.com/wesselall/" target="_blank"><img src="../img/ig-logo.png"
+                                    height="25px" alt="InstagramLogo"></a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
 
-    </section>
-    <script>
-        function mostrar(){
-            document.getElementById("headerNav-menu").style.display = "block";
-        }
-        function ocultar(){
-            document.getElementById("headerNav-menu").style.display = "none";
-        }
-    </script>
-    <link rel="stylesheet" href="../bootstrap/bootstrap.bundle.min.js">
+        <script src="https://kit.fontawesome.com/8e43b03d4c.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+        <script src="./assets/js/app.js"></script>
 </body>
 
 </html>

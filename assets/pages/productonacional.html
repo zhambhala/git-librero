@@ -5,139 +5,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="libro,comic,libros,comics,manga,mangas,novelas,novela">
+    <meta name="keywords" content="Geek,Usados,Contacto,manga,Nacionales">
     <meta name="description" content="Weasell, libreria de la localidad de Armstrong Santa Fe,
-    actualmente trabajando por encargo y stock reservado">
+        actualmente trabajando por encargo y stock reservado">
     <meta name="author" content="Bruno Angel Tomas Zabala">
     <meta name="robots" content="index">
     <link rel="icon" href="../img/logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8e43b03d4c.js" crossorigin="anonymous"></script>
-    <script defer src="./assets/js/app.js"></script>
     <link rel="stylesheet" type="text" href="../css/normalize.css">
-    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
-
     <title>Nacionales</title>
 </head>
 
-<body class="container-fluid gridContainer">
-    <header class="header gridItem--header">
-        <nav class="headerNav">
-            <div class="headerNav__home">
-                <a href="../../Index.html" class="headerNav__homeLogo"><img src="../img/logo.png" title="logo"
-                        class="headerNav__homeLogoImg"></a>
-            </div>
-            <p id="boton" onclick="mostrar();">Abrir</p>
-            <div id="headerNav-menu" class="headerNav-menu">
-                <p id="boton" onclick="ocultar();">Cerrar</p>
-                <ul class="headerNav-menuUl gridNavMenu">
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="productonacional.html"
-                            class="headerNav-menuUlLiLink gridNavMenu__li">Nacionales</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="geek.html"
-                            class="headerNav-menuUlLiLink">Geek</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="usados.html"
-                            class="headerNav-menuUlLiLink">Usados</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="cuevadelacomdreja.html"
-                            class="headerNav-menuUlLiLink">Madriguera</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="contacto.html" target="_BLANK"
-                            class=" headerNav-menuUlLiLink">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+<body>
+    <header class="container-fluid vw-100">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-custom container-fluid vw-100 row">
+                <div class="container-fluid">
+                    <a class="navbar-brand col-1" href="../../Index.html">
+                        <h1 class="m-2">Weasell</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse col-11 container-fluid row" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-1 mb-lg-0 row d-flex  justify-content-between ">
+                            <li class="nav-item col-2 ml-1 ">
+                                <a class="nav-link active" aria-current="page"
+                                    href="productonacional.html">Nacionales</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page" href="geek.html">Geek</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page" href="usados.html">Usados</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page"
+                                    href="cuevadelacomdreja.html">Madriguera</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-        <main class="gridItem--main">
-            <section class="off gridItem--mainOff">
-                <div class="off__firstSon"></div>
-                <div class="off__secondSon">
-                    <h1 class="off__secondSon__text"> sepan disculpar, actulamente no tengo los banners
-                        de ofertas hechos </h1>
+
+    <main class="container-fluid vw-100 p-0">
+        <div class="m-0 p-0">
+            <!--Banner-->
+            <section class="container-fluid col-12 col-lg-12 mb-2 p-0">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/banner/banner1.jpg" class="d-block w-100 carouselImg" height="350px"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h1 class="fs-1">Weasell</h1>
+                                <p>Tienda de libros virtual, si no lo tenemos, vemos la forma de conseguirlo</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/banner/banner6.jpg" class="d-block w-100 carouselImg" height="350px"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h2 class="fs-1">Sabia que Leer te ayuda a pensar y dormir mejor</h2>
+                                <p>la pagina puede tener cambios mes a mes</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/banner/banner6.jpg" class="d-block w-100 carouselImg" height="350px"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h3 class="fs-1">Gracias por visitarnos</h3>
+                                <p>no olvides ir a madriguera para leer una historia corta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-
             </section>
-            <section class="banner gridItem--mainBanner">
-                <div class="banner__firstSon"></div>
-                <div class="banner__secondSon">
-                    <h2 class="banner__secondSon__text"> Sean bienvenidos a Weasell la futura tienda online de libros
-                        miren cuanto gusten y recuerden consultar el stock actual </h2>
-                </div>
-            </section>
-
-            <section class="product gridItem--mainProduct ">
-
-                <div class="porduct__cards">
-                    <div class="card porduct__cards__cardProduct" style="width: 18rem;">
-                        <img src="../img/Products/bluelock3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h1 class="card-title"> Bluelock Precio:$1600</h1>
-                            <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
-                                Copa Mundial de Fútbol
-                                de
-                                2018.</p>
+            <!--BannerOfertas-->
+            <section class="container-fluid banner col-12 col-lg-12 mb-2 p-0 bannerDos">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../img/banner/banner3.png" class="d-block w-100 carouselImg" height="350px"
+                                alt="...">
                         </div>
                     </div>
                 </div>
-
-                <div class="porduct__cards">
-                    <div class="card porduct__cards__cardProduct" style="width: 18rem;">
-                        <img src="../img/Products/bluelock3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h1 class="card-title"> Bluelock Precio:$1600</h1>
-                            <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
-                                Copa Mundial de Fútbol
-                                de
-                                2018.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="porduct__cards">
-                    <div class="card porduct__cards__cardProduct" style="width: 18rem;">
-                        <img src="../img/Products/bluelock3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h1 class="card-title"> Bluelock Precio:$1600</h1>
-                            <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
-                                Copa Mundial de Fútbol
-                                de
-                                2018.</p>
-                        </div>
-                    </div>
-                </div>
-                
             </section>
-        </main>
-
-        <footer class="gridItem--footer">
-            <ul class="footer__ul gridContainer--fUl ">
-                <div class="footer__ul__firstSon gridItem--footerDiv">
-                    <li class="footer__ul__firstSon__list">
-                        <a href="contacto.html" target="_BLANK"
-                            class="footer__ul__firstSon__listLink">contacto</a>
-                    </li>
+            <!--carta de productos-->
+            <section class="alto-100 container-fluid row d-flex flex-wrap col-12 col-lg-12  p-4 product-mobile ">
+                <!--Card1-->
+                <div class="card m-2 row bg-success border border-primary col-12 porduct__cards__cardProduct"
+                    style="width: 18rem;">
+                    <img src="../img/Products/elPerro.jfif" height="250" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title fs-2">CONSULTAR</h4>
+                        <p class="card-text">Esta novela trata sobre un peregrino que cambió la historia de Occidente:
+                            un hombre nacido en Galilea que transitó la vida honrando el amor. También es el relato de
+                            su perro fiel, Miga de León, a quien el peregrino salvó de morir ahogado en las aguas
+                            Tiberíades</p>
+                        <a href="https://es.wikipedia.org/wiki/Liliana_Bodoc#Bibliografía" target="_blank"
+                            class="btn btn-primary ">Leer
+                            Completo</a>
+                    </div>
                 </div>
-                <div class="footer__ul__secondSon gridItem--footerDiv">
-                    <p class="footer__ul__secondSon__sMedia">Seguinos<a href="https://www.instagram.com/wesselall/"
-                            target="_BLANK">
-                            <img src="../img/ig-logo.png" class="footer__ul__secondSon__sMediaImg"></a>
-                    </p>
-
+                <!--Card2-->
+                <div class="card m-2 bg-success border border-primary" style="width: 18rem;">
+                    <img src="../img/Products/lBDiasdelFuego.jpg" height="250" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fs-2">CONSULTAR</h5>
+                        <p class="card-text"> Esta obra se inscribe en el género de la fantasía heroica y se desarrolla
+                            en un mundo imaginario llamado Las Tierras Fértiles, aunque parte de la acción transcurre en
+                            las Tierras Antiguas. El eje de la saga es la lucha de los pueblos de las Tierras Fértiles
+                            contra las huestes del perverso Misáianes, hijo de la Muerte.</p>
+                        <a href="https://es.wikipedia.org/wiki/Liliana_Bodoc#Bibliografía" class="btn btn-primary ">Leer
+                            Completo</a>
+                    </div>
                 </div>
+                <!--Card3-->
+                <div class="card m-2 bg-success border border-primary" style="width: 18rem;">
+                    <img src="../img/Products/lbdiasDelVenado.jfif" height="250" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title fs-2">CONSULTAR</h6>
+                        <p class="card-text"> Esta obra se inscribe en el género de la fantasía heroica y se desarrolla
+                            en un mundo imaginario llamado Las Tierras Fértiles, aunque parte de la acción transcurre en
+                            las Tierras Antiguas. El eje de la saga es la lucha de los pueblos de las Tierras Fértiles
+                            contra las huestes del perverso Misáianes, hijo de la Muerte.</p>
+                        <a href="https://es.wikipedia.org/wiki/Liliana_Bodoc#Bibliografía" class="btn btn-primary">Leer
+                            Completo</a>
+                    </div>
+                </div>
+                <!--Card4-->
+                <div class="card m-2 bg-success border border-primary" style="width: 18rem;">
+                    <img src="../img/Products/nomos.jfif" height="250" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h7 class="card-title fs-2">CONSULTAR</h7>
+                        <p class="card-text">Pocas cosas se parecen tanto entre sí como la tierra y los cuentos: se
+                            pueden transformar en vasijas o ladrillos, y también giran alrededor del sol.</p>
+                        <a href="https://lanaveinvisible.com/2018/04/14/recordando-a-nuestra-liliana-bodoc-1958-2018-por-una-fantasia-sin-confines/" class="btn btn-primary">Leer
+                            Completo</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="container-fluid vw-100 col-12 col-lg-12 bg-custom ">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="text-muted fs-3">©Weasell 2021</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li>
+                    <a href="https://www.instagram.com/wesselall/" target="_blank"><img src="../img/ig-logo.png"
+                            height="25px" alt="InstagramLogo"></a>
+                </li>
             </ul>
-        </footer>
+        </div>
+    </footer>
+    </div>
 
-        </section>
-        <script>
-            function mostrar(){
-                document.getElementById("headerNav-menu").style.display = "block";
-            }
-            function ocultar(){
-                document.getElementById("headerNav-menu").style.display = "none";
-            }
-        </script>
-        <link rel="stylesheet" href="../bootstrap/bootstrap.bundle.min.js">
+    <script src="https://kit.fontawesome.com/8e43b03d4c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>

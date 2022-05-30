@@ -7,137 +7,213 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Geek,Usados,Contacto,manga,Nacionales">
     <meta name="description" content="Weasell, libreria de la localidad de Armstrong Santa Fe,
-    actualmente trabajando por encargo y stock reservado">
+        actualmente trabajando por encargo y stock reservado">
     <meta name="author" content="Bruno Angel Tomas Zabala">
     <meta name="robots" content="index">
     <link rel="icon" href="./assets/img/logo.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/8e43b03d4c.js" crossorigin="anonymous"></script>
-    <script defer src="./assets/js/app.js"></script>
     <link rel="stylesheet" type="text" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
     <title>Weassel</title>
 </head>
 
-<body class="container-fluid gridContainer">
-    <header class="header gridItem--header">
-        <nav class="headerNav">
-            <div class="headerNav__home">
-                <a href="Index.html" class="headerNav__homeLogo"><img src="./assets/img/logo.png" title="logo"
-                        class="headerNav__homeLogoImg"></a>
-            </div>
-            <p id="boton" onclick="mostrar();">Abrir</p>
-            <div id="headerNav-menu" class="headerNav-menu">
-                <p id="boton" onclick="ocultar();">Cerrar</p>
-                <ul class="headerNav-menuUl gridNavMenu">
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="./assets/pages/productonacional.html"
-                            class="headerNav-menuUlLiLink gridNavMenu__li">Nacionales</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="./assets/pages/geek.html"
-                            class="headerNav-menuUlLiLink">Geek</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="./assets/pages/usados.html"
-                            class="headerNav-menuUlLiLink">Usados</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="./assets/pages/cuevadelacomdreja.html"
-                            class="headerNav-menuUlLiLink">Madriguera</a></li>
-                    <li class="headerNav-menuUlLi gridNavMenu__li"><a href="./assets/pages/contacto.html"
-                            target="_BLANK" class="headerNav-menuUlLiLink">Contacto</a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
+<body>
+    <header class="container-fluid vw-100">
+        <div class="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-custom container-fluid vw-100 row">
+                <div class="container-fluid">
+                    <a class="navbar-brand col-1" href="#">
+                        <h1 class="m-2">Weasell</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse col-11 container-fluid row" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-1 mb-lg-0 row d-flex  justify-content-between ">
+                            <li class="nav-item col-2 ml-1 ">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./assets/pages/productonacional.html">Nacionales</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page" href="./assets/pages/geek.html">Geek</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./assets/pages/usados.html">Usados</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./assets/pages/cuevadelacomdreja.html">Madriguera</a>
+                            </li>
+                            <li class="nav-item col-2 ml-1">
+                                <a class="nav-link active" aria-current="page"
+                                    href="./assets/pages/contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
-    <main class="gridItem--main">
-        <section class="off gridItem--mainOff">
-            <div class="off__firstSon"></div>
-            <div class="off__secondSon">
-                <p class="off__secondSon__text"> sepan disculpar, actulamente no tengo los banners
-                    de ofertas hechos </p>
-            </div>
-        </section>
 
-        <section class="banner gridItem--mainBanner">
-            <div class="banner__firstSon"></div>
-            <div class="banner__secondSon">
-                <p class="banner__secondSon__text"> Sean bienvenidos a Weasell la futura tienda online de libros
-                    miren cuanto gusten y recuerden consultar el stock actual </p>
-            </div>
-        </section>
-
-        <section class="product gridItem--mainProduct container-fluid">
-
-            <div class="porduct__cards">
-                <div class="card porduct__cards__cardProduct" style="width: 18rem;">
-                    <img src="./assets/img/Products/bluelock3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h1 class="card-title"> Bluelock Precio:$1600</h1>
-                        <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
-                            Copa Mundial de Fútbol
-                            de
-                            2018.</p>
+    <main class="container-fluid vw-100 p-0">
+        <div class="m-0 p-0">
+            <!--Banner-->
+            <section class="container-fluid col-12 col-lg-12 mb-2 p-0">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/banner/banner1.jpg" class="d-block w-100 carouselImg" height="350px"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h1 class="fs-1">Weasell</h1>
+                                <p>Tienda de libros virtual, si no lo tenemos, vemos la forma de conseguirlo</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/banner/banner6.jpg" class="d-block w-100 carouselImg" height="350px"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h2 class="fs-1">Sabia que Leer te ayuda a pensar y dormir mejor</h2>
+                                <p>la pagina puede tener cambios mes a mes</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./assets/img/banner/banner6.jpg" class="d-block w-100 carouselImg" height="350px"
+                                alt="...">
+                            <div class="carousel-caption">
+                                <h3 class="fs-1">Gracias por visitarnos</h3>
+                                <p>no olvides ir a madriguera para leer una historia corta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <!--BannerOfertas-->
+            <section class="container-fluid banner col-12 col-lg-12 mb-2 p-0 bannerDos">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/banner/banner3.png" class="d-block w-100 carouselImg" height="350px"
+                                alt="...">
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="porduct__cards">
-                <div class="card porduct__cards__cardProduct" style="width: 18rem;">
-                    <img src="./assets/img/Products/bluelock3.jpg" class="card-img-top" alt="...">
+            </section>
+            <!--carta de productos-->
+            <section class="alto-100 container-fluid row d-flex flex-wrap col-12 col-lg-12  p-4 product-mobile ">
+                <!--Card1-->
+                <div class="card m-2 row bg-success border border-primary col-12 porduct__cards__cardProduct"
+                    style="width: 18rem;">
+                    <img src="./assets/img/products/asterixElGalo.jpg" height="250" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h1 class="card-title"> Bluelock Precio:$1600</h1>
-                        <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
-                            Copa Mundial de Fútbol
-                            de
-                            2018.</p>
+                        <h4 class="card-title fs-2">$2195.00</h4>
+                        <p class="card-text">Colección Asterix el galo
+                            Ambientada en el 50 a.C., esta célebre historieta francesa narra las aventuras de Asterix y
+                            su fiel ladero
+                            Obelix en la única aldea del noroeste de Galia que aún no fue conquistada por los romanos.
+                        </p>
+                        <a href="https://es.wikipedia.org/wiki/Astérix_el_Galo" target="_blank"
+                            class="btn btn-primary ">Leer
+                            Completo</a>
                     </div>
                 </div>
-            </div>
-
-            <div class="porduct__cards">
-                <div class="card porduct__cards__cardProduct" style="width: 18rem;">
-                    <img src="./assets/img/Products/bluelock3.jpg" class="card-img-top" alt="...">
+                <!--Card2-->
+                <div class="card m-2 bg-success border border-primary" style="width: 18rem;">
+                    <img src="./assets/img/products/asterixEnBretaña.jpg" height="250" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h1 class="card-title"> Bluelock Precio:$1600</h1>
-                        <p class="card-text "> La trama se sitúa tras la eliminación de la selección de Japón de la
-                            Copa Mundial de Fútbol
-                            de
-                            2018.</p>
+                        <h5 class="card-title fs-2">$2195.00</h5>
+                        <p class="card-text">Colección Asterix el galo
+                            Ambientada en el 50 a.C., esta célebre historieta francesa narra las aventuras de Asterix y
+                            su fiel ladero
+                            Obelix en la única aldea del noroeste de Galia que aún no fue conquistada por los romanos.
+                        </p>
+                        <a href="https://es.wikipedia.org/wiki/Astérix_en_Bretaña" class="btn btn-primary ">Leer
+                            Completo</a>
                     </div>
                 </div>
-            </div>
-
-        </section>
+                <!--Card3-->
+                <div class="card m-2 bg-success border border-primary" style="width: 18rem;">
+                    <img src="./assets/img/products/tWElUltimoDeseo.jpg" height="250" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title fs-2">$2095.00</h6>
+                        <p class="card-text">Geralt de Rivia, brujo y mutante sobrehumano, se gana la vida como cazador
+                            de monstruos
+                            en una tierra de magia y maravilla: con sus dos espadas al hombro -la de acero para hombres,
+                            y la de plata
+                            para bestias</p>
+                        <a href="http://www.riversideagency.com.ar/libro.php?ean=9788498891041&t=El+último+deseo"
+                            class="btn btn-primary">Leer Completo</a>
+                    </div>
+                </div>
+                <!--Card4-->
+                <div class="card m-2 bg-success border border-primary" style="width: 18rem;">
+                    <img src="./assets/img/products/atlasDeMitos.jpg" height="250" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h7 class="card-title fs-2">$3950.00</h7>
+                        <p class="card-text">El ilustrador brasileño Thiago de Moraes presenta un trabajo extraordinario
+                            que nos
+                            acerca al mundo del mito eligiendo los doce de esos mundos que mejor conoce o que más le
+                            gustan. El
+                            universo azteca, el egipcio, el hindú, el noruego, el japonés o el Yanomami, son algunos de
+                            ellos</p>
+                        <a href="http://www.riversideagency.com.ar/libro.php?ean=9788417222208&t=Atlas+de+mitos"
+                            class="btn btn-primary">Leer Completo</a>
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
 
-    <footer class="gridItem--footer">
-        <ul class="footer__ul gridContainer--fUl ">
-            <div class="footer__ul__firstSon gridItem--footerDiv">
-                <li class="footer__ul__firstSon__list">
-                    <a href="./assets/pages/contacto.html" target="_BLANK"
-                        class="footer__ul__firstSon__listLink">contacto</a>
+    <!--FOOTER-->
+    <footer class="container-fluid vw-100 col-12 col-lg-12 bg-custom ">
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="text-muted fs-3">©Weasell 2021</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li>
+                    <a href=""><img src="./assets/img/ig-logo.png" height="25px" alt="InstagramLogo"></a>
                 </li>
-            </div>
-            <div class="footer__ul__secondSon gridItem--footerDiv">
-                <p class="footer__ul__secondSon__sMedia">Seguinos<a href="https://www.instagram.com/wesselall/"
-                        target="_BLANK">
-                        <img src="./assets/img/ig-logo.png" class="footer__ul__secondSon__sMediaImg"></a>
-                </p>
-
-            </div>
-        </ul>
+            </ul>
+        </div>
     </footer>
+    </div>
 
-    </section>
-    <script>
-        function mostrar(){
-            document.getElementById("headerNav-menu").style.display = "block";
-        }
-        function ocultar(){
-            document.getElementById("headerNav-menu").style.display = "none";
-        }
+    <script src="https://kit.fontawesome.com/8e43b03d4c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.bundle.min.js">
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>
