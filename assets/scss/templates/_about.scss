@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center;
     @include sizes(100%, auto);
-    width: 100vh;
+    
 
 
     .about-container {
@@ -122,4 +122,5 @@
             margin-top: 10px;
         }
     }
+}
 }
