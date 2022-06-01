@@ -23,46 +23,54 @@
     <title>Contacto</title>
 </head>
 
-<body id="about" class="container-fluid row">
-    <main class="col col-xxl col-lg">
-    <div class="col-12 col-sm-12 col-lg-12 col-xxl-12">
-        <div class="about-back col-12 col">
+<body id="about" class="container-fluid row p-5">
+    <header class="col col-sm col-md col-lg col-xl container-fluid row ">
+
+        <div class="about-back col-12 col-lg-12 col-md-12 col-xxl-12">
             <a href="../../index.html" class="about-back__son">
                 <h1 class="about-back__son--text">Volver</h1>
             </a>
         </div>
+        <div class="col-12 col-lg-12 col-md-12 col-xxl-12">
+            <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/0tWbzjgTWtQ0l8mEwqjWLG?utm_source=generator" width="100%"
+                height="80" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div>
+    </header>
 
-        <div class="about-container">
-            <div class="flex-container ">
-                <form class="form">
-                    <div class="form__section ">
+    <main class="col container-fluid row">
+        <div class="about-container col container-fluid row">
+            <div class="col p-5 flex-container ">
+                <form class="col p-4 container-fluid row form">
+                    <div class="col container-fluid row form__section ">
 
                         <input type="text" class="form-input" placeholder="Asunto">
 
                     </div>
 
-                    <div class="form__section">
+                    <div class="col container-fluid row form__section">
 
                         <input type="email" class="form-input" placeholder="Email">
 
                     </div>
 
-                    <div class="form__section">
+                    <div class="col container-fluid row form__section">
 
                         <textarea class="form-input" placeholder="Escriba su mensaje"></textarea>
 
                     </div>
 
-                    <div>
+                    <div class="col container-fluid row ">
                         <!----Bootstrap + diseño propio----->
-                        <div class="form__section">
-                            <select class="form-select" aria-label="Pais">
-                                <option selected> ¿de que Pais eres?</option>
-                                <option value="Argentina">Argentina</option>
-                                <option value="Brasil">Brasil</option>
-                                <option value="Colombia">Colombia</option>
-                                <option value="Paraguay">Paraguay</option>
-                                <option value="Venezuela">Venezuela</option>
+                        <div class="col container-fluid row form__section">
+                            <select class="col container-fluid row form-select" aria-label="Pais">
+                                <option class="col" selected> ¿de que Pais eres?</option>
+                                <option class="col" value="Argentina">Argentina</option>
+                                <option class="col" value="Brasil">Brasil</option>
+                                <option class="col" value="Colombia">Colombia</option>
+                                <option class="col" value="Paraguay">Paraguay</option>
+                                <option class="col" value="Venezuela">Venezuela</option>
                             </select>
                         </div>
                         <!----Bootstrap----->
@@ -102,9 +110,9 @@
             </div>
 
             <link rel="stylesheet" href="../bootstrap/bootstrap.bundle.min.js">
+
         </div>
-    </div>
-</main>
+    </main>
 </body>
 
 </html>

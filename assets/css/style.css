@@ -13,55 +13,38 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /*  @include sizes(100%, auto);*/ }
-  #about div {
-    height: auto; }
-    #about div .about-container {
+  width: 100%;
+  height: auto; }
+  #about .about-container {
+    background-color: #2225;
+    border-radius: 3%; }
+  #about .flex-container {
+    justify-content: center;
+    border-radius: 10px; }
+    #about .flex-container .form .form textarea {
+      min-height: 250px;
+      resize: none; }
+    #about .flex-container .form .form-input {
+      width: 100%;
+      background-color: #2225; }
+    #about .flex-container .form .form-input[type="submit"]:hover {
+      background-color: #2225; }
+    #about .flex-container .form .form-input:focus {
+      background: linear-gradient(to bottom, transparent, #222);
+      outline: none; }
+    #about .flex-container .form .youAge {
+      display: inline-block; }
+    #about .flex-container .form .form-select option {
+      align-content: center; }
+    #about .flex-container input, #about .flex-container .form__section p b, #about .flex-container option, #about .flex-container select, #about .flex-container .youAge, #about .flex-container .form-select, #about .flex-container label, #about .flex-container textarea {
+      font-size: x-large;
+      color: #fff;
       background-color: #2225;
-      margin: 2px;
       border-radius: 3%;
-      width: 100vh; }
-    #about div .flex-container {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 50px 40px;
-      border-radius: 10px; }
-      #about div .flex-container .form {
-        min-width: 400px;
-        flex: 1;
-        text-align: right;
-        padding: 30px; }
-        #about div .flex-container .form .form textarea {
-          min-height: 140px;
-          resize: none; }
-        #about div .flex-container .form .form-input {
-          width: 100%;
-          padding: 10px;
-          margin: 6px 0px;
-          background-color: #2225; }
-        #about div .flex-container .form .form-input[type="submit"]:hover {
-          background-color: #2225;
-          padding: 12px; }
-        #about div .flex-container .form .form-input:focus {
-          background: linear-gradient(to bottom, transparent, #222);
-          outline: none; }
-        #about div .flex-container .form .youAge {
-          display: inline-block; }
-        #about div .flex-container .form .form-select option {
-          align-content: center; }
-      #about div .flex-container input, #about div .flex-container .form__section p b, #about div .flex-container option, #about div .flex-container select, #about div .flex-container .youAge, #about div .flex-container .form-select, #about div .flex-container label, #about div .flex-container textarea {
-        font-size: x-large;
-        color: #fff;
-        background-color: #2225;
-        border-radius: 3%;
-        font-family: arial; }
-      #about div .flex-container .about-back {
-        text-decoration: none;
-        font-weight: bold; }
-      #about div .flex-container .maps {
-        margin-top: 10px; }
+      font-family: arial; }
+    #about .flex-container .about-back {
+      text-decoration: none;
+      font-weight: bold; }
 
 body {
   font-family: 'Elsie Swash Caps', sans-serif;
